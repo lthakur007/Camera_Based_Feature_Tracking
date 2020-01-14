@@ -1,0 +1,13 @@
+Top three Keypoint Detector/Descriptor combination suggestion from side:
+
+1) Detector   - Fast 	--> Average time taken: 0.37 microseconds
+   Descriptor - Brief   --> Average time taken: 0.87 microseconds
+   Average time taken combined (Fast + Brief) = 1.24 microseconds
+   
+2) Detector   - Harris 	--> Average time taken: 9.5 microseconds
+   Descriptor - Brief   --> Average time taken: 0.2 microseconds
+   Average time taken combined (Harris + Brief) = 9.7 microseconds
+
+2) Detector   - Brisk 	--> Average time taken: 23.9 microseconds
+   Descriptor - Brief   --> Average time taken: 0.66 microseconds
+   Average time taken combined (Brisk + Brief) = 24.56 microseconds
